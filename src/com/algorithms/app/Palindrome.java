@@ -38,6 +38,8 @@ public class Palindrome {
 		{
 			if (str.charAt(i) != str.charAt(j))
 				isPalindrome = false;
+				
+			j--;
 		}
 		
 		return isPalindrome;
