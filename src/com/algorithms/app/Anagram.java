@@ -11,8 +11,8 @@ public class Anagram {
 		
 		
 		
-		String strA = "Agonista ";
-		String strB = "Santiago";
+		String strA = "Agonista  ";
+		String strB = "Santia go";
 		
 		//I need to clean the text because I do not want to compare spaces, numbers etc...
 		strA = cleanText(strA);
@@ -33,11 +33,11 @@ public class Anagram {
 		
 		if (isAnagram)
 		{
-			System.out.println("These words are an anagram");
+			System.out.println("We found an anagram");
 		}
 		else
 		{
-			System.out.println("These words are not an anagram");
+			System.out.println("We not found an anagram");
 		}
 	}
 	
