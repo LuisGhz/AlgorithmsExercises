@@ -37,6 +37,8 @@ public class CorrectStructure {
 			// if the structure is not correct show this message
 			System.out.println("The structure is not correct");
 		}
+		
+		kInput.close();
 	}
 	
 	private static boolean checkStructure(String str)
