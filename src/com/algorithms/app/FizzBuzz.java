@@ -40,7 +40,6 @@ public class FizzBuzz {
 			else if ( e % 5 == 0)
 				msg += e + ": Buzz\n";
 		}
-		
 		// Show the final string
 		System.out.println(msg);
 	}
